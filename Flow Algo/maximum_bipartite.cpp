@@ -82,8 +82,8 @@ int main(int argc, char const *argv[])
                                   {0, 0, 1}};
 
     // list of how many jobs each person can do
-    // int job_ability[N] = {INF, INF, INF, INF};
-    int job_ability[N] = {2, 2, 2, 2};
+    int job_ability[N] = {INF, INF, INF, INF};
+    // int job_ability[N] = {2, 2, 2, 2};
 
     // vacancies for each job
     int job_vacancy[J] = {2, 2, 1};
